@@ -1,10 +1,10 @@
-# SpringBootFX
+SpringBootFX
 Simple example for Spring Boot and JavaFX application
 Simple example for Spring Boot and JavaFX application
 Contains profiles: default, nmi and aper
 
 Active profile nmi sets in application.yml
-
+'''
 spring:
   main:
     web-application-type: none
@@ -15,8 +15,8 @@ logging:
   level:
     org:
       springframework: info
-  
-  You can switch active profile to **aper** at a startup using 
+  '''
+  You can switch active profile to aper at a startup using 
 
   -Dspring.profiles.active=aper
   
