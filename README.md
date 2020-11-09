@@ -16,7 +16,7 @@ logging:
     org:
       springframework: info
   
-  You can switch active profile to **aper** at a startup using 
+  You can switch active profile to aper at a startup using 
 
   -Dspring.profiles.active=aper
   
